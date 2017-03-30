@@ -1,5 +1,5 @@
-barba:
-    resource: "@BarbaBundle/Controller/"
+barbadus:
+    resource: "@BarbadusBundle/Controller/"
     type:     annotation
     prefix:   /
 

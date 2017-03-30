@@ -1,17 +1,17 @@
 <?php
 
-namespace BarbaBundle\Controller;
+namespace BarbadusBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
-class DefaultController extends Controller
+class PainelController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/painel")
      */
     public function indexAction()
     {
-        return $this->render('BarbaBundle:Default:index.html.twig');
+        return $this->render('BarbadusBundle:Painel:index.html.twig');
     }
 }

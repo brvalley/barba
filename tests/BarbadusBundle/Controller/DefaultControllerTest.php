@@ -1,6 +1,6 @@
 <?php
 
-namespace BarbaBundle\Tests\Controller;
+namespace BarbadusBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
